@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorytak</title>
+</head>
+<style>
+    .main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box1{
+        height: 70vh;
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(246,244,244);
+        background: linear-gradient(90deg, rgba(246,244,244,0.6587885154061625) 6%, rgba(247,246,235,1) 23%, rgba(218,175,65,0.38707983193277307) 42%, rgba(225,202,66,1) 70%, rgba(230,121,25,1) 100%);
+        border-radius: 50px;
+        box-shadow: 10px 10px 10px rgb(78, 78, 78);
+    }
+    .para1{
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+        text-align: center;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .backbut{
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: linear 0.8s;
+
+    }
+    .backbut:hover{
+        cursor: pointer;
+        scale: 1.3;
+        
+    }
+    .backbut:active{
+        opacity: 0.6;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="box1">
+            <div class="image">
+                <img src="dog2.png" alt="">
+            </div>
+            <div class="text">
+                <p class="para1">Sorry! <br> Not Responsive!</p>
+                <div class="back"><a href="index.html"><button class="backbut">Back</button></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
